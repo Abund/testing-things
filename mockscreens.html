@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Panel</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   </head>
+
+   <body>
+      <div data-role = "page" id = "page1">
+         <div data-role = "panel" id = "panel1" data-display="overlay">
+            <div class="ui-panel-inner">
+                <ul data-role="listview">
+                    <li data-icon="home">
+                        <a id="menu-home" href="#">Goal</a>
+                    </li>
+                    <li data-icon="user">
+                        <a id="menu-user" href="userstories.html"  rel="external">User stories</a>
+                    </li>
+                    <li data-icon="gear">
+                        <a id="menu-mock" href="mockscreens.html" rel="external">Mock Screens</a>
+                    </li>
+                    <li data-icon="mail">
+                        <a id="menu-comp" href="comp.html" rel="external">Comparisons</a>
+                    </li>
+                    <li data-icon="mail">
+                        <a id="menu-tech" href="techchallenge.html" rel="external">tech. challanges</a>
+                    </li>
+                </ul>
+            </div>
+         </div>
+         
+         <div data-role  =  "header">
+            <a href = "#panel1" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all"></a>
+            <h2>Header</h2>
+         </div>
+         
+         <div data-role  =  "main" class  =  "ui-content">
+            <h1>jdjd</h1>
+            <a href="userstories.html">User stories</a>
+         </div>
+         
+         <div data-role = "footer">
+            <h2>Footer</h2>
+         </div>
+      </div>
+   </body>
+</html>

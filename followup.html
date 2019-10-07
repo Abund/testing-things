@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>External Panel</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   </head>
+
+   <body>
+      <div data-role = "page" id = "page1">
+         <div data-role = "panel" id = "overlay_panel" data-display = "overlay">
+            <h2>This is Overlay Panel</h2>
+            <p>You can close this panel by pressing the Esc key or by swiping or 
+            clicking outside the panel.</p>
+            <a href = "#page1" data-rel = "close" class = "ui-btn ui-btn-inline ui-btn-a 
+               ui-icon-delete ui-btn-icon-left">Close Panel</a>
+         </div>
+         
+         <div data-role = "panel" id = "reveal_panel" data-display = "reveal">
+            <h2>Reveal Panel</h2>
+            <p>You can close this panel by pressing the Esc key or by swiping or 
+            clicking outside the panel.</p>
+            <a href = "#page1" data-rel = "close" class = "ui-btn ui-btn-inline ui-btn-a 
+               ui-icon-delete ui-btn-icon-left">Close Panel</a>
+         </div>
+         
+         <div data-role = "panel" id = "push_panel" data-display = "push">
+            <h2>Push Panel</h2>
+            <p>You can close this panel by pressing the Esc key or by swiping or 
+            clicking outside the panel.</p>
+            <a href = "#page1" data-rel = "close" class = "ui-btn ui-btn-inline ui-btn-a 
+               ui-icon-delete ui-btn-icon-left">Close Panel</a>
+         </div>
+         
+         <div data-role = "header">
+            <h2>Header</h2>
+         </div>
+         
+         <div data-role = "main" class = "ui-content">
+            <p>Click the below buttons to open the Panel with different display modes.</p>
+            <a href = "#overlay_panel" class = "ui-btn ui-btn-inline ui-shadow">This is Overlay Panel</a>
+            <a href = "#reveal_panel" class = "ui-btn ui-btn-inline ui-shadow">This is Reveal Panel</a>
+            <a href = "#push_panel" class = "ui-btn ui-btn-inline ui-shadow">This is Push Panel</a>
+         </div>
+         
+         <div data-role = "footer">
+            <h2>Footer</h2>
+         </div>
+      </div>
+   </body>
+</html>
