@@ -19,21 +19,21 @@
                     <li data-icon="user">
                         <a id="menu-user" href="userstories.html"  rel="external">User stories</a>
                     </li>
-                    <li data-icon="gear">
+                    <li data-icon="alert">
                         <a id="menu-mock" href="mockscreens.html" rel="external">Mock Screens</a>
                     </li>
                     <li data-icon="mail">
                         <a id="menu-comp" href="comp.html" rel="external">Comparisons</a>
                     </li>
-                    <li data-icon="mail">
+                    <li data-icon="gear">
                         <a id="menu-tech" href="techchallenge.html" rel="external">tech. challanges</a>
                     </li>
                 </ul>
             </div>
          </div>
          
-         <div data-role  =  "header">
-            <a href = "#panel1" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all"></a>
+         <div data-role  =  "header" data-position="fixed">
+            <a href = "#panel1" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" ></a>
             <h1>HealthCare</h1>
          </div>
          
@@ -51,8 +51,14 @@
                </ul>
          </div>
          
-         <div data-role = "footer">
-            <h2>Footer</h2>
+         <div data-role = "footer" data-position="fixed">
+            <div data-role="navbar">
+               <ul>
+                 <li><a href="#anylink" data-icon="arrow-l" style="display: none"></a></li>
+                 <li><a href="#anylink" data-icon="bars" style="display: none"></a></li>
+                 <li><a id="menu-user" href="userstories.html"  rel="external" data-icon="arrow-r"></a></li>
+               </ul>
+             </div>
          </div>
       </div>
    </body>
